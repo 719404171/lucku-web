@@ -1,0 +1,1 @@
+function c(n){const i=String(n??""),t=i.indexOf(".");return t===-1?0:Math.min(i.length-t-1,4)}function s(n,i=1){const t=Number(n),e=Number(i);if(!Number.isFinite(t)||!Number.isFinite(e))return"0";const r=c(n),o=t*e;return r>0?o.toFixed(r):String(o)}export{s as f};
